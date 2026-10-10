@@ -1,0 +1,23 @@
+{
+  "years": 60,
+  "planning_horizon": 20,
+  "units": 125,
+  "development_cost": 10000000,
+  "unit_sale_price": 120000,
+  "retained_units": 25,
+  "opening_cash": 300000,
+  "annual_net_rent_per_unit": 4800,
+  "developer_cash_return": 1700000,
+  "routine_cost": 30000,
+  "annual_steward_fee": 15000,
+  "real_cash_return": 0.02,
+  "real_financial_return": 0.04,
+  "real_construction_growth": 0.01,
+  "components": [
+    {"name": "roof", "life": 25, "cost": 450000},
+    {"name": "facade", "life": 30, "cost": 700000},
+    {"name": "lifts", "life": 20, "cost": 350000},
+    {"name": "services", "life": 30, "cost": 550000}
+  ],
+  "steward_business": {"annual_fee": 15000, "direct_cost_per_client": 9000, "central_cost": 3000000}
+}

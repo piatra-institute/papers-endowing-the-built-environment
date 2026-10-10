@@ -1,0 +1,28 @@
+slug: endowing-the-built-environment
+web_slug: endowing-the-built-environment
+title: 'Endowing the Built Environment: Renewal Finance and the Institutions That Keep It Funded'
+header: ENDOWING THE BUILT ENVIRONMENT
+created: 2026-10
+date: October 2026
+paper_dir: paper
+has_simulation: true
+claims_target: claims.yaml
+genre: institutional argument with an illustrative lifecycle model
+repo: git@github.com:piatra-institute/papers-endowing-the-built-environment.git
+github: https://github.com/piatra-institute/papers-endowing-the-built-environment
+status: published
+web_blurb: 'Retaining rental apartments can finance common repairs, but the apartments have an opportunity cost and income alone does not ensure that work happens on time. A 60-year renewal model compares equally funded arrangements, followed by a proposal for a worldwide steward with segregated client assets, explicit fees and replaceable management.'
+abstract: A building can be paid for at completion and still lack a credible provision for the work that
+  will keep it usable. This paper examines an endowment dedicated to that continuing obligation, including
+  a development model that retains rental apartments to support common renewal. A launch constraint prices
+  retained assets at their foregone selling value. A reproducible 60-year model then compares rental income,
+  liquid reserves and financial investments with equal initial dedicated capital, recurring component
+  work and a rolling 20-year funding assessment. Under the illustrative baseline, the rental endowment
+  retains cash and property at year 60 but has overdue work and a continuation-funding gap. A higher-return
+  financial portfolio meets the baseline obligations; an ordinary reserve holding the same portfolio produces
+  identical results. Endowment therefore supplies neither free capital nor a financial advantage by designation.
+  Its possible contribution lies in sustaining a commitment through changes of owners, managers and circumstances.
+  The second half develops a commercial stewardship institution with segregated client assets, independent
+  engineering, explicit fees, portable records and a replaceable manager. Bounded legal comparisons show
+  why such an institution would require local mandates rather than a universal ownership wrapper. Continued
+  service, affordability and environmental benefit remain separate objectives requiring explicit decisions.

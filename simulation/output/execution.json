@@ -1,0 +1,71 @@
+{
+  "execution": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "runtime": {
+    "python": "3.12.11 (main, Aug 18 2025, 19:02:39) [Clang 20.1.4 ]",
+    "platform": "macOS-15.1-arm64-arm-64bit",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.2"
+  },
+  "unit_tests": 12,
+  "experiments": [
+    {
+      "name": "unit-tests",
+      "required": true,
+      "execution": {
+        "status": "PASS",
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "launch",
+      "required": true,
+      "execution": {
+        "status": "PASS",
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "all-scenarios",
+      "required": true,
+      "execution": {
+        "status": "PASS",
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "calls-and-sales",
+      "required": true,
+      "execution": {
+        "status": "PASS",
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "return-sensitivity",
+      "required": true,
+      "execution": {
+        "status": "PASS",
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "continuation-funding-search",
+      "required": true,
+      "execution": {
+        "status": "PASS",
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "steward-costs",
+      "required": true,
+      "execution": {
+        "status": "PASS",
+        "exit_code": 0
+      }
+    }
+  ]
+}

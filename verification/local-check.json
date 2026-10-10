@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "slug": "endowing-the-built-environment",
+  "stage": "local",
+  "status": "PASS",
+  "exit_code": 0,
+  "checks": [
+    {
+      "check": "metadata",
+      "status": "PASS",
+      "message": "required fields and manuscript-derived text agree",
+      "path": null
+    },
+    {
+      "check": "build",
+      "status": "PASS",
+      "message": "PDF and build inputs match recorded hashes",
+      "path": null
+    },
+    {
+      "check": "references",
+      "status": "PASS",
+      "message": "10 cited IDs resolve to 10 entries; factual support is checked in claims.yaml",
+      "path": null
+    },
+    {
+      "check": "claim:abstract-scope",
+      "status": "PASS",
+      "message": "Abstract synthesizes the conditional model and separately proposed institution. Equal-portfolio equivalence is exact; no probability, perpetual-solvency or investment-performance claim.",
+      "path": null
+    },
+    {
+      "check": "claim:endowment-definition",
+      "status": "PASS",
+      "message": "Purpose dedication rather than an absolute ban on asset sales is the working definition. Enforceability is a design requirement, not universal legal availability.",
+      "path": null
+    },
+    {
+      "check": "claim:strongest-rival",
+      "status": "PASS",
+      "message": "An adequately funded ordinary reserve is the comparator. Resources, obligations and competence may not be reduced merely to favour the proposal.",
+      "path": null
+    },
+    {
+      "check": "claim:service-purpose",
+      "status": "PASS",
+      "message": "Continued service is the proposed governing objective; capital price, fund balance and service capacity are not identified.",
+      "path": null
+    },
+    {
+      "check": "claim:depreciation-cash",
+      "status": "PASS",
+      "message": "Accounting allocation does not itself create usable resources. No jurisdiction-specific accounting rule is asserted.",
+      "path": null
+    },
+    {
+      "check": "claim:lifecycle-cost-budget",
+      "status": "PASS",
+      "message": "Read NIST's distinctions between inflation and discounting, and present-value evaluation and budget provision. No handbook rate is used as a current local financing recommendation.",
+      "path": null
+    },
+    {
+      "check": "claim:endowment-other-resources",
+      "status": "PASS",
+      "message": "Read NBER abstract, including activity costs and other institutional resources. The correlated rental/repair application is our hypothesis, not an empirical estimate attributed to Merton.",
+      "path": null
+    },
+    {
+      "check": "claim:land-trust-precedent",
+      "status": "PASS",
+      "message": "Read official description of land transfer with invested support for continuing management. Marketing assurances about removing risk are not repeated.",
+      "path": null
+    },
+    {
+      "check": "claim:parks-trust-precedent",
+      "status": "PASS",
+      "message": "Read official account of property endowment and property/investment income; other continuing income acknowledged. No apartment scheme's indefinite solvency inferred.",
+      "path": null
+    },
+    {
+      "check": "claim:launch-market-inputs",
+      "status": "PASS",
+      "message": "125 units, EUR 10 million cost, EUR 120,000 equal net price and no construction borrowing are chosen arithmetic assumptions, not observed market estimates.",
+      "path": null
+    },
+    {
+      "check": "claim:launch-sales",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:launch-opening-cash",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:launch-developer-cash",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:launch-retained-value",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:launch-total-surplus",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:launch-identity",
+      "status": "PASS",
+      "message": "With positive price and net rent, sales must cover development, required cash return and opening reserve; retained rents meet declared annual provision. Ceil/floor bounds enforce integer units. Necessary simplified launch conditions only.",
+      "path": null
+    },
+    {
+      "check": "claim:launch-income",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:launch-lower-bound",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:launch-upper-bound",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:higher-provision",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:higher-provision-minimum",
+      "status": "PASS",
+      "message": "bound value matches (Annual provision EUR 150,000, all other launch inputs unchanged.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:higher-provision-maximum",
+      "status": "PASS",
+      "message": "bound value matches (Annual provision EUR 150,000, all other launch inputs unchanged.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:net-rent-boundary",
+      "status": "PASS",
+      "message": "EUR 4,800 per unit is net of private operating/interior/tax costs but before common renewal and fees. Common expenses are not deducted twice. Project tax and development finance remain outside the model.",
+      "path": null
+    },
+    {
+      "check": "claim:equal-initial-capital",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:return-assumptions",
+      "status": "PASS",
+      "message": "2% real cash and 4% real financial returns are scenario inputs, not estimated yields. Matched reserve uses the identical financial return path.",
+      "path": null
+    },
+    {
+      "check": "claim:component-assumptions",
+      "status": "PASS",
+      "message": "60-year horizon, rolling 20-year window, four declared intervention lives/costs, annual routine expense and common fee are in config.json; none is engineering calibration.",
+      "path": null
+    },
+    {
+      "check": "claim:price-basis",
+      "status": "PASS",
+      "message": "Constant purchasing-power euros, 1% real construction/routine escalation, fixed real rents, returns after investment costs but before steward fee. No borrowing, appreciation or hidden owner support.",
+      "path": null
+    },
+    {
+      "check": "claim:cash-identity",
+      "status": "PASS",
+      "message": "Annual accounting credits income/return before expenses; calls and sales only under explicit policies. simulate() reconciles every row, negative balances treated as arrears earning no return.",
+      "path": null
+    },
+    {
+      "check": "claim:physical-state",
+      "status": "PASS",
+      "message": "Funding and approval required. Actual execution resets age; overdue work and arrears are failures, not evidence that service can safely continue.",
+      "path": null
+    },
+    {
+      "check": "claim:overdue-measure",
+      "status": "PASS",
+      "message": "Count of years beyond an assumed intervention date; not an outage probability or criticality-weighted service measure.",
+      "path": null
+    },
+    {
+      "check": "claim:continuation",
+      "status": "PASS",
+      "message": "Minimum liquidity is maximum cumulative discounted net deficit in the next 20 years, with actual terminal ages and no foreknowledge of dated shocks. Separate property value cannot also finance counted rents.",
+      "path": null
+    },
+    {
+      "check": "claim:rental-first-overdue",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:rental-terminal-cash",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:rental-terminal-gap",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:reserve-first-overdue",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:financial-terminal-cash",
+      "status": "PASS",
+      "message": "bound value matches (Deterministic illustrative baseline; constant purchasing-power euros, stated config.json assumptions, no automatic owner injections or asset sales.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:matched-control",
+      "status": "PASS",
+      "message": "Tests compare entire annual ledgers of financial and matched-reserve treatments. Same initial state, cash flows and returns yield identical interventions and wealth; institutional benefit must be established separately.",
+      "path": null
+    },
+    {
+      "check": "claim:rental-extra-opening",
+      "status": "PASS",
+      "message": "bound value matches (Binary funding search: baseline work all timely, no arrears and final continuation gap <= EUR 0.01; retained units fixed.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:reserve-extra-opening",
+      "status": "PASS",
+      "message": "bound value matches (Same funding criterion for 2% reserve. Extra capital is beyond the common EUR 3.3 million.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:additional-capital-cost",
+      "status": "PASS",
+      "message": "Funding threshold reduces founder return or needs an identified contributor. Tolerance and finite window do not establish prudent or perpetual funding advice.",
+      "path": null
+    },
+    {
+      "check": "claim:return-shock-terminal-gap",
+      "status": "PASS",
+      "message": "bound value matches (One financial return replaced by -35% in year 19; otherwise baseline no-call assumptions.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:sequence-stress",
+      "status": "PASS",
+      "message": "One -35% year replaces +4% at year 19 or 21; designed comparison, not an estimated frequency. Intermediate expenditure makes ordering consequential.",
+      "path": null
+    },
+    {
+      "check": "claim:rental-stress-first-overdue",
+      "status": "PASS",
+      "message": "bound value matches (Roof due at year 12 for all schemes; rental income halved years 12-14, other assumptions baseline.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:correlated-stress",
+      "status": "PASS",
+      "message": "Common early physical expense and rental-specific interruption intentionally coupled; no causal covariance is estimated.",
+      "path": null
+    },
+    {
+      "check": "claim:approval-overdue",
+      "status": "PASS",
+      "message": "bound value matches (Two-year approval delay for each due intervention, otherwise financial baseline.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:combined-owner-calls",
+      "status": "PASS",
+      "message": "bound value matches (Combined rental: 3% real construction escalation, doubled fees, early roof/income interruption and two-year approval delay; explicit owner calls.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:combined-units-sold",
+      "status": "PASS",
+      "message": "bound value matches (Combined rental stresses with whole-unit sales, no calls; sales reduce next-period rent.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:simulation-scope",
+      "status": "PASS",
+      "message": "No calibrated returns, hazards or local tax model. Constant-price emergency property sales omit transaction costs, favouring liquidation. Accounting/funding distinctions, not investment rankings.",
+      "path": null
+    },
+    {
+      "check": "claim:company-boundary",
+      "status": "PASS",
+      "message": "Proposed service company separate from client ownership/custody; not an empirically demonstrated global business or executable universal entity.",
+      "path": null
+    },
+    {
+      "check": "claim:mandate-duties",
+      "status": "PASS",
+      "message": "Proposed connection of engineering, finance, authority and records; a solvency guarantee would be a separate capitalized/insured product.",
+      "path": null
+    },
+    {
+      "check": "claim:authority-allocation",
+      "status": "PASS",
+      "message": "Role table proposes separation of recommendation, authorization, payment and inspection, not a universal legal chart. Local powers and independent conflict controls required.",
+      "path": null
+    },
+    {
+      "check": "claim:emergency-delegation",
+      "status": "PASS",
+      "message": "Prior delegation with limits, notification and review proposed; statutory duties not overridden.",
+      "path": null
+    },
+    {
+      "check": "claim:portable-records",
+      "status": "PASS",
+      "message": "Proposed access/custody/record portability makes removal practical; does not defeat insolvency or creditor law.",
+      "path": null
+    },
+    {
+      "check": "claim:resident-voice",
+      "status": "PASS",
+      "message": "Tenant interests may differ from voting owners. Proposed reporting, reasons and challenge routes supplement technical judgment.",
+      "path": null
+    },
+    {
+      "check": "claim:polycentric-scale",
+      "status": "PASS",
+      "message": "Read archived draft on task-dependent production scale and polycentric services. Paraphrase only, no quotation. Commercial stewardship application is our proposal, not Ostrom's finding.",
+      "path": null
+    },
+    {
+      "check": "claim:pooling-boundary",
+      "status": "PASS",
+      "message": "Shared professional systems do not require shared asset ownership. Pooling/mutual support require separate authorized claims, liquidity and exit rules.",
+      "path": null
+    },
+    {
+      "check": "claim:currency-risk",
+      "status": "PASS",
+      "message": "Conceptual liability-matching limit omitted by euro model. Diversification can introduce mismatches requiring local liquidity; no numerical cross-currency benefit asserted.",
+      "path": null
+    },
+    {
+      "check": "claim:romanian-repair-fund",
+      "status": "PASS",
+      "message": "Read official text: separate administration, manager handover, common-income/interest dedication and repair provision. No automatic dedication of separately titled rental apartments. Qualified local review required.",
+      "path": null
+    },
+    {
+      "check": "claim:nyc-adaptation",
+      "status": "PASS",
+      "message": "Read official guidance on emissions duties and different affordable/regulated housing categories. Not a universal reserve-fund rule.",
+      "path": null
+    },
+    {
+      "check": "claim:maharashtra-investment-powers",
+      "status": "PASS",
+      "message": "Read deposit/investment channels and routes subject to rules/orders. Entity classification/current housing-specific provisions need separate review; no unrestricted securities authority asserted.",
+      "path": null
+    },
+    {
+      "check": "claim:shanghai-fund-system",
+      "status": "PASS",
+      "message": "Read dated authorized-use, audit and deposit/government-bond account. Not a certification of subsequent rules.",
+      "path": null
+    },
+    {
+      "check": "claim:kenya-powers",
+      "status": "PASS",
+      "message": "Read repair/funding duties, trading restriction and conditioned investment power. Rental activity requires an entity/contract with actual authority.",
+      "path": null
+    },
+    {
+      "check": "claim:company-break-even",
+      "status": "PASS",
+      "message": "bound value matches (Hypothetical EUR 15,000 annual fee minus EUR 9,000 direct cost; EUR 3 million central cost. Excludes onboarding/working capital/unusual liabilities.)",
+      "path": "simulation/output/results.json"
+    },
+    {
+      "check": "claim:company-cost-inputs",
+      "status": "PASS",
+      "message": "Fee/direct/central costs hypothetical, not a valuation or empirically established scale economy.",
+      "path": null
+    },
+    {
+      "check": "claim:fee-incentives",
+      "status": "PASS",
+      "message": "Fixed ordinary fee plus disclosed additional work proposed with quality/conflict controls. No remuneration formula eliminates judgment or incentives.",
+      "path": null
+    },
+    {
+      "check": "claim:affordability-distinction",
+      "status": "PASS",
+      "message": "Solvency does not establish equitable distribution; tenant payments and ownership gains need their own account.",
+      "path": null
+    },
+    {
+      "check": "claim:failure-distinction",
+      "status": "PASS",
+      "message": "Separate custody/portability design aims cannot erase creditor priorities, resident rights, statutory duties or underfunding.",
+      "path": null
+    },
+    {
+      "check": "claim:adaptation-exit",
+      "status": "PASS",
+      "message": "Revisable purpose and lawful participation proposed; perpetual physical preservation not assumed desirable.",
+      "path": null
+    },
+    {
+      "check": "claim:environmental-distinction",
+      "status": "PASS",
+      "message": "Financial continuity cannot establish environmental benefit. Embodied/operating alternatives require an independent comparison not conducted here.",
+      "path": null
+    },
+    {
+      "check": "claim:bounded-pilot",
+      "status": "PASS",
+      "message": "Administrative pilot would test service delivery and costs, not perpetual solvency.",
+      "path": null
+    },
+    {
+      "check": "claim:finite-horizon-limit",
+      "status": "PASS",
+      "message": "Continuation discounting conditional on assumed returns and 20-year window, not an actuarial or infinite-horizon result.",
+      "path": null
+    },
+    {
+      "check": "claim:no-hidden-rescue",
+      "status": "PASS",
+      "message": "Negative balances preserve unpaid obligations; calls/sales are separate. Present-value calls use the common 2% real rate.",
+      "path": null
+    },
+    {
+      "check": "run:renewal",
+      "status": "PASS",
+      "message": "execution completed; scientific outcome is separate",
+      "path": "verification/renewal.json"
+    },
+    {
+      "check": "editorial",
+      "status": "PASS",
+      "message": "recorded editorial review covers this manuscript",
+      "path": null
+    },
+    {
+      "check": "visual",
+      "status": "PASS",
+      "message": "recorded inspection covers all 15 pages of this PDF",
+      "path": null
+    },
+    {
+      "check": "deployment",
+      "status": "NOT_APPLICABLE",
+      "message": "local stage does not inspect or change deployment",
+      "path": null
+    }
+  ]
+}

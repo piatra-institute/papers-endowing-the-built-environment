@@ -1,0 +1,240 @@
+# CSL references with stable IDs; cite using Pandoc [@id] syntax.
+# Record identities and supporting passages in sources.md and claims.yaml.
+references:
+  [
+    {
+      "id": "nist2025",
+      "type": "report",
+      "title": "Life Cycle Costing Manual for the Federal Energy Management Program",
+      "author": [
+        {
+          "family": "Kneifel",
+          "given": "Joshua"
+        },
+        {
+          "family": "Webb",
+          "given": "David"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "number": "NIST HB 135e2025",
+      "publisher": "National Institute of Standards and Technology",
+      "DOI": "10.6028/NIST.HB.135e2025",
+      "URL": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.135e2025.pdf"
+    },
+    {
+      "id": "merton1991",
+      "type": "report",
+      "title": "Optimal Investment Strategies for University Endowment Funds",
+      "author": [
+        {
+          "family": "Merton",
+          "given": "Robert C."
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            1991
+          ]
+        ]
+      },
+      "number": "3820",
+      "publisher": "National Bureau of Economic Research",
+      "DOI": "10.3386/w3820",
+      "URL": "https://www.nber.org/papers/w3820"
+    },
+    {
+      "id": "ostrom2009",
+      "type": "report",
+      "title": "Beyond Markets and States: Polycentric Governance of Complex Economic Systems",
+      "author": [
+        {
+          "family": "Ostrom",
+          "given": "Elinor"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "genre": "Revised draft of Nobel lecture",
+      "publisher": "Indiana University, Digital Library of the Commons",
+      "URL": "https://hdl.handle.net/10535/7707"
+    },
+    {
+      "id": "landtrust",
+      "type": "webpage",
+      "title": "Endowment",
+      "author": [
+        {
+          "literal": "The Land Trust"
+        }
+      ],
+      "URL": "https://thelandtrust.org.uk/services-we-offer/endowment/",
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "id": "parkstrust",
+      "type": "webpage",
+      "title": "Our Story",
+      "author": [
+        {
+          "literal": "The Parks Trust"
+        }
+      ],
+      "URL": "https://www.theparkstrust.com/our-work/our-story/",
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "id": "romania2018",
+      "type": "legislation",
+      "title": "Legea nr. 196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor",
+      "title-short": "Law 196/2018",
+      "author": [
+        {
+          "literal": "Parliament of Romania"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "URL": "https://legislatie.just.ro/Public/DetaliiDocument/203233",
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nyc97",
+      "type": "webpage",
+      "title": "Local Law 97 Guidance for Affordable Housing",
+      "author": [
+        {
+          "literal": "New York City Department of Housing Preservation and Development"
+        }
+      ],
+      "URL": "https://www.nyc.gov/site/hpd/services-and-information/ll97-guidance-for-affordable-housing.page",
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "id": "maharashtra1960",
+      "type": "legislation",
+      "title": "The Maharashtra Co-operative Societies Act, 1960",
+      "title-short": "Maharashtra Co-operative Societies Act",
+      "author": [
+        {
+          "literal": "Government of Maharashtra"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            1960
+          ]
+        ]
+      },
+      "URL": "https://www.indiacode.nic.in/bitstream/123456789/15836/3/maharashtra.pdf",
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "id": "shanghai2024",
+      "type": "report",
+      "title": "Response to Recommendation 0260 of the Second Session of the Sixteenth Shanghai Municipal People's Congress",
+      "author": [
+        {
+          "literal": "Shanghai Municipal Housing Administration"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            29
+          ]
+        ]
+      },
+      "number": "2024/9",
+      "URL": "https://www.shanghai.gov.cn/gwk/search/content/3e05633cde784371ac83d04c736ae86a",
+      "note": "Title translated from Chinese"
+    },
+    {
+      "id": "kenya2020",
+      "type": "legislation",
+      "title": "Sectional Properties Act, No. 21 of 2020",
+      "title-short": "Sectional Properties Act",
+      "author": [
+        {
+          "literal": "Parliament of Kenya"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "URL": "https://new.kenyalaw.org/akn/ke/act/2020/21/eng@2022-12-31",
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ]
+      }
+    }
+  ]
